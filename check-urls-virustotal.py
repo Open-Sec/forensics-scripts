@@ -7,7 +7,7 @@ import time
 count = 0
 
 if len(sys.argv) != 2:
-    print "Usage: ./checkdomains-virustotal.py <File-URLs>"
+    print "Usage: ./check-urls-virustotal.py <File-URLs>"
     sys.exit(1)
 
 print "Checking in virustotal.com\n"
